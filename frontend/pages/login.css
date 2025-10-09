@@ -1,0 +1,69 @@
+/* login.css */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #34495e; /* Dark Blue/Gray background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 350px;
+    text-align: center;
+}
+
+h2 {
+    color: #2c3e50;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+button[type="submit"] {
+    background-color: #3498db; /* Blue button */
+    color: white;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 20px;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #2980b9;
+}
+
+.link-text {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.link-text a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.link-text a:hover {
+    text-decoration: underline;
+}
