@@ -1,0 +1,36 @@
+.heading {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 30px;
+    color: #2c3e50;
+}
+
+.history-table {
+    width: 85%;
+    margin: 40px auto;
+    border-collapse: collapse;
+}
+
+.history-table th, .history-table td {
+    border: 1px solid #34495e;
+    padding: 12px;
+}
+
+.history-table th {
+    background: #2c3e50;
+    color: white;
+}
+
+.history-table tr:nth-child(even) {
+    background: #ecf0f1;
+}
+
+.status-not-returned {
+    color: red;
+    font-weight: bold;
+}
+
+.status-returned {
+    color: green;
+    font-weight: bold;
+}
